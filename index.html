@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+<link rel="stylesheet" href="./portfoliostyle.css">
+
+    
+
+    
+    <title> Portfolio</title>
+  
+  </head>
+ <!-- Javascript to preload images, not sure it does anything though-->
+ <!--specifies script and type-->
+ <script type="text/javascript">
+  // var functionally-scoped variable that is defined as an array of all page images
+    var images = new Array();
+    //function starts here to cache images
+    function preload(){
+    //this is a looping function to collect all images, of which there are 6
+        for (i=0; i < 6; i++){
+            // puts each new image into the array
+             images[i] = new Image();
+            //src is for an external url, so it can separately load the images
+            images[i].src = preload.arguments[i];
+    
+        }
+    
+    }
+    //here I define the images I want preloaded
+    preload("./school.jpg", "./uni.jpg", 
+    "./tutor.webp", "./computing.jpg");
+    //here the script is ended, and goes back to being HTML
+    </script>
+
+  
+  <body> 
+    <h2>Kira</h2> 
+    <!--Opening paragraph-->
+    <p1>Hi! Kira here. Welcome to my portfolio.  </p>
+      
+    </p1>
+    <!--School-->
+    <div id="menubox_1">
+      <div class="canape">
+        <img src="./school.jpg" alt="school" style="float:right; width: 350px; height: 200px;
+        padding-left: 0.5cm;">
+      </div>
+        I started my education journey in school!
+        
+        
+         </div>
+         <!--University-->
+         <img src="./uni.jpg" alt="University" 
+         style="float:left; width: 350px; height: 200px; padding-left: 1cm; padding-top: 
+         2.5cm; padding-right: 0.6cm;">
+         <div id="menubox_2">
+          <div class="breakfast">
+            
+          </div>
+            Following that, I attended university for 4 years.
+             </div>
+             <!--Tutoring-->
+             <img src="./tutor.webp" alt="tutoring" style="float:right; 
+             width: 350px; height: 200px; padding-left: 0.5cm; padding-top:2.5cm; margin-right: 01.3cm;">
+             <div id="menubox_3" >
+              <div class="lunch">
+                
+              </div>
+                I briefly began tutoring before covid shut that down.
+                
+                
+                 </div>
+                 <!--Computing-->
+                 <img src="./computing.jpg" alt="hacker" 
+         style="float:left; width: 350px; height: 200px; padding-left: 0.5cm; padding-top: 
+         2.5cm; padding-right: 0.6cm;">
+         <div id="menubox_2">
+          <div class="dinner">
+            
+          </div>
+            Now I'm doing the computing course that led to me creating this! Hope you enjoyed.
+            
+             </div>
+             
+</html>

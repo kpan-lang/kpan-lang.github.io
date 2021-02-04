@@ -1,0 +1,116 @@
+
+
+  body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    color: rgb(93, 225, 230);
+    width: 800px;
+    min-height: 100vh;
+    margin: 0 auto;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 0 10px;
+  }
+  /*page title*/
+   h2 {
+     color: rgb(11, 11, 75);
+     text-align: center;
+     font-size: xxx-large;
+     font-family: Copperplate, Papyrus, fantasy;
+     /*this stickies the nav bar to the top of the page*/
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  
+   }
+   /*introductory paragraph*/
+   p1{
+    color: rgb(75, 11, 70);
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+  
+  }
+   /* top menu box only*/
+   #menubox_1 {
+     width: 720px;
+     height: 300px;
+     color:rgb(48, 7, 58);
+     font-family: Garamond, sans-serif;
+     margin-left: 5%;
+     margin-right: 40%;
+     font-size: 20px;
+     padding-left: 7px;
+     padding-right: 00px;
+     padding-top: 40px;
+     border: 5px solid rgb(66, 7, 68);
+     text-align: justify;
+     
+     
+   } 
+   /*main menu download box*/
+   #clickbox_1 {
+     width: 135px;
+     height: 23px;
+     padding-left: 0.6cm;
+     padding-top: 0.5cm;
+     padding-bottom: 0.4cm;
+     border: 4px solid black;
+     font-size: large;
+     background-color: rgb(144, 126, 148);
+     color: black;
+     transition-duration: 0.4s;
+     margin-left: 30%;
+     visibility:visible;
+     margin-top:60px;
+     margin-left: 60px;
+     text-align: justify;
+   }
+   /*changes colour of download box*/
+   #clickbox_1:hover {
+     background-color: black;
+     color: rgb(73, 45, 45);
+   }
+   /*sets the location of school image*/
+   .canape{
+    margin-left: 700px;
+    margin-right: 50px;
+    padding-right: 2cm;
+    padding-top: 1cm;
+  }
+  /*box style for all that are right slanted*/
+   #menubox_2 {
+     width: 720px;
+     height: 300px;
+     color:rgb(48, 7, 58);
+     font-family: Garamond, sans-serif;
+     margin-left: 0%;
+     margin-right: 0%;
+     margin-top: 0.5cm;
+     font-size: 20px;
+     padding-left: 0px;
+     padding-right: 10px;
+     padding-top: 40px;
+     border: 5px solid rgb(66, 7, 68);
+     text-align: justify;
+   }
+   
+   /*box style for all that are left slanted*/
+   #menubox_3 {
+    width: 720px;
+    height: 300px;
+    color:rgb(48, 7, 58);
+    font-family: Garamond, sans-serif;
+    margin-left: 5%;
+    margin-right: 40%;
+    margin-top: 0.5cm;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 0px;
+    padding-top: 40px;
+    border: 5px solid rgb(66, 7, 68);
+    text-align: justify;
+    
+   }
+  
+  
+  
